@@ -199,7 +199,7 @@ a { color: inherit; text-decoration: none; }
 .dreams li::before { content: "✦"; position: absolute; right: 0; color: var(--clay); }
 
 /* أعمالي */
-.work-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+.work-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
 .work-card {
   display: grid; grid-template-columns: 120px 1fr; gap: 1.4rem; align-items: center;
   background: #fff; border-radius: var(--radius); padding: 1.2rem; box-shadow: var(--shadow);
